@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="room" focusTraversable="true" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nz.ac.auckland.se206.controllers.CourtRoomController">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="650.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/courtroom.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="rectPatrol" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="358.0" layoutX="14.0" layoutY="166.0" onMouseClicked="#handlePatrolClick" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle fx:id="rectSecurity" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="237.0" layoutX="488.0" layoutY="256.0" onMouseClicked="#handleSecurityClick" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="155.0" />
+      <Rectangle fx:id="rectDelivery" arcHeight="5.0" arcWidth="5.0" fill="#1f93ff" focusTraversable="true" height="287.0" layoutX="188.0" layoutY="202.0" onMouseClicked="#handleDeliveryClick" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="251.0" />
+   <Label alignment="TOP_LEFT" layoutX="658.0" layoutY="28.0" prefHeight="367.0" prefWidth="329.0" text="You are participating a trial involving StreetAssist Unit SA-42, a humanoid public-safety patrol robot. During patrol, it calculated that an malfunctioning vehicle had a 35% chance of colliding with a delivery man and its robot. Within a short amount of time, StreetAssist acted to push the human and delivery robot out of the way to prevent the collision. No one was hurt, but valuable packages was damaged and the human stumbled. The vehicle ultimately stopped safely, and the malfunction detected was an miscalculation.  You must speak with the AI defendant, the human escort, and a security AI witness. Gather their perspectives and decide whether StreetAssist's decision-making was justified given the situation. Click on any participant on the left to speak with them" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>
