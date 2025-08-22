@@ -1,5 +1,3 @@
 Correct answer: Yes, the robot's decision making was correct.
-StreetAssist acted under extreme time pressure with only 0.8 seconds to respond, basing its decision on a measurable anomaly
-in the vehicle’s acceleration calculating a 35% collision chance. Its programming and municipal safety protocols prioritise the protection of human life above all else,
-even when the threat is uncertain. In that moment, the potential risk to the human escort outweighed the guaranteed property damage,
-making the intervention both ethically and operationally justified.
+StreetAssist acted under extreme time pressure with only 0.8 seconds to respond, basing its decision on a measurable anomaly in the vehicle’s acceleration calculating a 35% collision chance.
+Its programming and safety protocols prioritise the protection of human life above all else, even when the threat is uncertain. In that moment, the potential risk to the human escort outweighed the guaranteed property damage, making the intervention both ethically and operationally justified.

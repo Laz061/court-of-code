@@ -20,7 +20,7 @@
             <Font size="30.0" />
          </font>
       </Label>
-   <Label fx:id="lblOutcome" alignment="TOP_LEFT" layoutX="65.0" layoutY="264.0" managed="false" prefHeight="334.0" prefWidth="884.0" text="" visible="false">
+   <Label fx:id="lblOutcome" alignment="TOP_LEFT" layoutX="65.0" layoutY="264.0" managed="false" prefHeight="334.0" prefWidth="884.0" wrapText="true" text="" visible="false">
          <font>
             <Font size="18.0" />
          </font></Label>
